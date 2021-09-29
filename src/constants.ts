@@ -4,6 +4,7 @@ export const FILE_SW_REGISTER = 'registerSW.js'
 export const VIRTUAL_MODULES_MAP: Record<string, string> = {
   'virtual:pwa-register': 'register',
   'virtual:pwa-register/vue': 'vue',
+  'virtual:pwa-register/vue2composition': 'vue2composition',
   'virtual:pwa-register/svelte': 'svelte',
   'virtual:pwa-register/react': 'react',
 }
